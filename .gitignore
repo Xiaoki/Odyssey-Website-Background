@@ -1,0 +1,5 @@
+# Ignore log files 
+*.log
+.parcel-cache
+todo.md
+node_modules/
