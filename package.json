@@ -12,6 +12,7 @@
     "process": "^0.11.10"
   },
   "scripts": {
+    "start": "parcel --dist-dir=docs index.html",
     "build": "parcel --dist-dir=docs --public-url=./ index.html"
   }
 }
