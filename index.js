@@ -71,11 +71,11 @@ class Odyssey extends THREE.Mesh {
 const createNewOdyssey = (id, wallet, name, url) => {
 
     const standardTextures = [
-        "./images/baseAtmos.png", 
-        "./images/temptations.png", 
-        "./images/showTime.png", 
-        "./images/honey01.png",
-        "./images/iceland01.png", 
+        "./images/baseAtmos.jpg", 
+        "./images/temptations.jpg", 
+        "./images/showTime.jpg", 
+        "./images/honey01.jpg",
+        "./images/iceland01.jpg", 
     ];   
 
     const randNum = Math.floor(Math.random() * (standardTextures.length));
@@ -136,7 +136,7 @@ controls.enableRotate = false;
 /**
  * Happyship skybox
  */
-const backgroundImage = new THREE.TextureLoader().load('./images/BasicSkyboxHD.png');
+const backgroundImage = new THREE.TextureLoader().load('./images/BasicSkyboxHD.jpg');
 backgroundImage.mapping = THREE.EquirectangularReflectionMapping;
 scene.background = backgroundImage;
 
